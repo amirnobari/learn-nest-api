@@ -1,71 +1,73 @@
 {
-	"workbench.startupEditor": "none",
-	"editor.fontSize": 16,
-	"workbench.iconTheme": "material-icon-theme",
-	"window.openFilesInNewWindow": "default",
-	"explorer.compactFolders": false,
-	"[javascript]": {
-		"editor.defaultFormatter": "vscode.typescript-language-features"
-	},
-	"workbench.tree.indent": 24,
-	"[typescript]": {
-		"editor.defaultFormatter": "vscode.typescript-language-features"
-	},
-	"[python]": {
-		"editor.formatOnType": true
-	},
-	"python.diagnostics.sourceMapsEnabled": true,
-	"python.experiments.optInto": [],
-	"js/ts.implicitProjectConfig.experimentalDecorators": true,
-	"typescript.tsserver.watchOptions": {},
-	"workbench.editor.enablePreview": false,
-	"git.autofetch": true,
-	"git.enableSmartCommit": true,
-	"[json]": {
-		"editor.defaultFormatter": "vscode.json-language-features"
-	},
-	"security.workspace.trust.untrustedFiles": "open",
-	"javascript.preferences.quoteStyle": "single",
-	"typescript.preferences.quoteStyle": "single",
-	"javascript.format.semicolons": "remove",
-	"typescript.format.semicolons": "remove",
-	"npm.keybindingsChangedWarningShown": true,
-	"editor.fontFamily": "IntelOne Mono",
-	"terminal.integrated.fontFamily": "monospace",
-	"editor.defaultFoldingRangeProvider": "esbenp.prettier-vscode",
-	"files.autoSave": "afterDelay",
-	"workbench.editorAssociations": {
-		"*.xlsx": "default"
-	},
-	"tabnine.experimentalAutoImports": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.formatOnSave": true,
-	"prettier.jsxSingleQuote": true,
-	"notebook.formatOnSave.enabled": true,
-	"prettier.semi": false,
-	"prettier.singleQuote": true,
-	"prettier.useEditorConfig": false,
-	"prettier.useTabs": true,
-	"editor.formatOnPaste": true,
-	"editor.language.brackets": [
-		["[", "]"],
-		["(", ")"],
-		["{", "}"]
-	],
-	"editor.language.colorizedBracketPairs": [
-		["[", "]"],
-		["(", ")"],
-		["{", "}"]
-	],
-	"prettier.bracketSameLine": true,
-	"editor.bracketPairColorization.enabled": true,
-	"editor.guides.bracketPairs": "active",
-	"javascript.format.placeOpenBraceOnNewLineForFunctions": true,
-	"javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
-	"typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
-	"javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-	"typescript.format.placeOpenBraceOnNewLineForFunctions": true,
-	"breadcrumbs.showNamespaces": false,
-	"remote.autoForwardPortsSource": "hybrid",
-	"liveServer.settings.donotShowInfoMsg": true
+  "workbench.startupEditor": "none",
+  "editor.fontSize": 16,
+  "workbench.iconTheme": "material-icon-theme",
+  "window.openFilesInNewWindow": "default",
+  "explorer.compactFolders": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.tree.indent": 24,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "python.diagnostics.sourceMapsEnabled": true,
+  "python.experiments.optInto": [],
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  "typescript.tsserver.watchOptions": {},
+  "workbench.editor.enablePreview": false,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.format.semicolons": "remove",
+  "typescript.format.semicolons": "remove",
+  "npm.keybindingsChangedWarningShown": true,
+  "editor.fontFamily": "IntelOne Mono",
+  "terminal.integrated.fontFamily": "monospace",
+  "editor.defaultFoldingRangeProvider": "esbenp.prettier-vscode",
+  "files.autoSave": "afterDelay",
+  "workbench.editorAssociations": {
+    "*.xlsx": "default"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.jsxSingleQuote": true,
+  "notebook.formatOnSave.enabled": true,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.useEditorConfig": false,
+  "prettier.useTabs": true,
+  "editor.formatOnPaste": true,
+  "editor.language.brackets": [
+    ["[", "]"],
+    ["(", ")"],
+    ["{", "}"]
+  ],
+  "editor.language.colorizedBracketPairs": [
+    ["[", "]"],
+    ["(", ")"],
+    ["{", "}"]
+  ],
+  "prettier.bracketSpacing": false,
+  "prettier.bracketSameLine": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+  "breadcrumbs.showNamespaces": false,
+  "remote.autoForwardPortsSource": "hybrid",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "prettier.endOfLine": "lf"
 }
