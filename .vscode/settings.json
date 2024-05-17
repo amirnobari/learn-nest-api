@@ -58,7 +58,10 @@
     ["{", "}"]
   ],
   "prettier.bracketSpacing": false,
+<<<<<<< HEAD
   "prettier.bracketSameLine": true,
+=======
+>>>>>>> e13a60f (chore : "Routines")
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
@@ -69,5 +72,13 @@
   "breadcrumbs.showNamespaces": false,
   "remote.autoForwardPortsSource": "hybrid",
   "liveServer.settings.donotShowInfoMsg": true,
+<<<<<<< HEAD
   "prettier.endOfLine": "lf"
+=======
+  "prettier.endOfLine": "lf",
+  "prettier.bracketSameLine": true,
+  "prettier.tabWidth": 4,
+  "prettier.printWidth": 120,
+  "prettier.trailingComma": "none"
+>>>>>>> e13a60f (chore : "Routines")
 }
