@@ -5,12 +5,9 @@ import { UsersModule } from './users/users.module'
 import { ProductsModule } from './products/products.module'
 import { LoggerMiddleware } from './logger/logger.middleware'
 import { TypeOrmModule } from '@nestjs/typeorm'
+import Users from './entities/user.entity'
 @Module({
-    controllers: [AppController],
-    providers: [AppService],
     imports: [
-        UsersModule,
-        ProductsModule,
         TypeOrmModule.forRoot({
             type: 'postgres',
             host: 'localhost',
@@ -20,8 +17,13 @@ import { TypeOrmModule } from '@nestjs/typeorm'
             database: 'postgres',
             entities: [__dirname + '/**/*.entity{.ts,.js}'],
             synchronize: true
-        })
-    ]
+        }),
+        TypeOrmModule.forFeature([Users]),
+        UsersModule,
+        ProductsModule
+    ],
+    controllers: [AppController],
+    providers: [AppService]
 })
 export class AppModule implements NestModule {
     configure(consumer: MiddlewareConsumer) {

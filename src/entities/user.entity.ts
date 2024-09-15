@@ -11,6 +11,6 @@ export default class Users {
     last_name: string
     @Column({ unique: true, nullable: false })
     email: string
-    @Column({ length: 25, nullable: false })
+    @Column({ select: false, nullable: false })
     password: string
 }
